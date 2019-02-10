@@ -14,3 +14,16 @@ $('.nav-prompt').click(function () {
         $('.nav-inner').attr('aria-expanded', 'false');
     }
 })
+
+
+// image gallery
+
+function imageGallery()  {
+    if (!$('.image-gallery').length) {
+        return;       
+    }
+
+    $('.image-gallery a').simpleLightbox();
+}
+
+imageGallery();
