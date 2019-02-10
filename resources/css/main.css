@@ -67,6 +67,9 @@ img {
     height: auto;
 }
 
+video  {
+    max-width: 100%;
+}
 /* -------------------------- HEADINGS AND TYPE  */
 
 h1,
@@ -298,6 +301,7 @@ input[type="submit"]:hover {
 
         display: flex;
         align-items: center;
+        text-align: center;
   
     }
 
