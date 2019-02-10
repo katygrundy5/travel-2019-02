@@ -19,7 +19,7 @@ $('.nav-prompt').click(function () {
 // image gallery
 
 function imageGallery()  {
-    if (!$('.image-gallery').length) {
+    if(!$('.image-gallery').length) {
         return;       
     }
 

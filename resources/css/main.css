@@ -70,6 +70,12 @@ img {
 video  {
     max-width: 100%;
 }
+
+iframe {
+    max-width: 100%;
+}
+
+
 /* -------------------------- HEADINGS AND TYPE  */
 
 h1,
@@ -351,6 +357,6 @@ input[type="submit"]:hover {
 .image-gallery a:hover img {
     filter: unset;
     transform: scale(1.05);
-    
+
 }
 
